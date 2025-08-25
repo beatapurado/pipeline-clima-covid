@@ -1,0 +1,14 @@
+coluna,nulos,percentual_nulos,tipo,valores_unicos
+cidade,0,0.0,object,12
+temperatura_c,0,0.0,float64,12
+umidade_perc,0,0.0,int64,12
+descricao_clima,0,0.0,object,3
+velocidade_vento_ms,0,0.0,float64,12
+pressao_hpa,0,0.0,int64,7
+UF,0,0.0,object,12
+regiao_x,0,0.0,object,4
+latitude,0,0.0,float64,12
+longitude,0,0.0,float64,12
+data_atualizacao,0,0.0,object,1
+casos_confirmados,0,0.0,int64,12
+obitos,0,0.0,int64,12

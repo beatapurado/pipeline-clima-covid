@@ -1,0 +1,70 @@
+{
+    "total_registros": 12,
+    "nulos_por_coluna": {
+        "cidade": 0,
+        "temperatura_c": 0,
+        "umidade_perc": 0,
+        "descricao_clima": 0,
+        "velocidade_vento_ms": 0,
+        "pressao_hpa": 0,
+        "UF": 0,
+        "regiao_x": 0,
+        "latitude": 0,
+        "longitude": 0,
+        "data_atualizacao": 0,
+        "casos_confirmados": 0,
+        "obitos": 0
+    },
+    "percentual_nulos": {
+        "cidade": 0.0,
+        "temperatura_c": 0.0,
+        "umidade_perc": 0.0,
+        "descricao_clima": 0.0,
+        "velocidade_vento_ms": 0.0,
+        "pressao_hpa": 0.0,
+        "UF": 0.0,
+        "regiao_x": 0.0,
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "data_atualizacao": 0.0,
+        "casos_confirmados": 0.0,
+        "obitos": 0.0
+    },
+    "tipos_colunas": {
+        "cidade": "object",
+        "temperatura_c": "float64",
+        "umidade_perc": "int64",
+        "descricao_clima": "object",
+        "velocidade_vento_ms": "float64",
+        "pressao_hpa": "int64",
+        "UF": "object",
+        "regiao_x": "object",
+        "latitude": "float64",
+        "longitude": "float64",
+        "data_atualizacao": "object",
+        "casos_confirmados": "int64",
+        "obitos": "int64"
+    },
+    "valores_unicos": {
+        "cidade": 12,
+        "temperatura_c": 12,
+        "umidade_perc": 12,
+        "descricao_clima": 3,
+        "velocidade_vento_ms": 12,
+        "pressao_hpa": 7,
+        "UF": 12,
+        "regiao_x": 4,
+        "latitude": 12,
+        "longitude": 12,
+        "data_atualizacao": 1,
+        "casos_confirmados": 12,
+        "obitos": 12
+    },
+    "outliers": {
+        "temperatura_c": [],
+        "umidade_perc": [],
+        "pressao_hpa": [],
+        "casos_confirmados": [],
+        "obitos": []
+    }
+}

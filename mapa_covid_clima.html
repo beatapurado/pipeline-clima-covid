@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c27a4e0e03822ed0be1e48eb8b20cdde {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c27a4e0e03822ed0be1e48eb8b20cdde" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c27a4e0e03822ed0be1e48eb8b20cdde = L.map(
+                "map_c27a4e0e03822ed0be1e48eb8b20cdde",
+                {
+                    center: [-14.235, -51.9253],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f3326e4e7ae22b74639d4a83c26a8b5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9f3326e4e7ae22b74639d4a83c26a8b5.addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+            var circle_marker_f22ef0ab088369acd4b667eca568d83b = L.circleMarker(
+                [-9.0478679, -70.5264976],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_9f26a121e5ccc983770b7400e02af876 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25b02dd8b00ede02b63e41f84ed2be1c = $(`<div id="html_25b02dd8b00ede02b63e41f84ed2be1c" style="width: 100.0%; height: 100.0%;"><b>Acre</b><br>Casos COVID: 123808<br>Temperatura: 28.99 °C<br>Umidade: 33%</div>`)[0];
+                popup_9f26a121e5ccc983770b7400e02af876.setContent(html_25b02dd8b00ede02b63e41f84ed2be1c);
+            
+        
+
+        circle_marker_f22ef0ab088369acd4b667eca568d83b.bindPopup(popup_9f26a121e5ccc983770b7400e02af876)
+        ;
+
+        
+    
+    
+            var circle_marker_f1bb334b1948e3a8c3fef1623cec772e = L.circleMarker(
+                [-9.6611661, -36.6502426],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_54ecdddcd95a5d02f81329c72dd3187d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d393db619018781db11b7c61c1bac0c = $(`<div id="html_5d393db619018781db11b7c61c1bac0c" style="width: 100.0%; height: 100.0%;"><b>Alagoas</b><br>Casos COVID: 295972<br>Temperatura: 24.98 °C<br>Umidade: 72%</div>`)[0];
+                popup_54ecdddcd95a5d02f81329c72dd3187d.setContent(html_5d393db619018781db11b7c61c1bac0c);
+            
+        
+
+        circle_marker_f1bb334b1948e3a8c3fef1623cec772e.bindPopup(popup_54ecdddcd95a5d02f81329c72dd3187d)
+        ;
+
+        
+    
+    
+            var circle_marker_64a117d74318d413612a51565eb160c7 = L.circleMarker(
+                [1.3545442, -51.9161977],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_d9e6a8e0bfb8fd81b68d448947509f1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71dcd7e1f7f0f1f8ca63da4f216a9ccd = $(`<div id="html_71dcd7e1f7f0f1f8ca63da4f216a9ccd" style="width: 100.0%; height: 100.0%;"><b>Amapá</b><br>Casos COVID: 160328<br>Temperatura: 30.18 °C<br>Umidade: 56%</div>`)[0];
+                popup_d9e6a8e0bfb8fd81b68d448947509f1f.setContent(html_71dcd7e1f7f0f1f8ca63da4f216a9ccd);
+            
+        
+
+        circle_marker_64a117d74318d413612a51565eb160c7.bindPopup(popup_d9e6a8e0bfb8fd81b68d448947509f1f)
+        ;
+
+        
+    
+    
+            var circle_marker_b1226f4501de2c8247d8916b77afb5f4 = L.circleMarker(
+                [-1.2159564, -51.9017766],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_9608e1112e3ef0c888ae536d35f8153a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5cc5802be031a0e0a7fccb1318675ed = $(`<div id="html_a5cc5802be031a0e0a7fccb1318675ed" style="width: 100.0%; height: 100.0%;"><b>Amazonas</b><br>Casos COVID: 581070<br>Temperatura: 36.54 °C<br>Umidade: 23%</div>`)[0];
+                popup_9608e1112e3ef0c888ae536d35f8153a.setContent(html_a5cc5802be031a0e0a7fccb1318675ed);
+            
+        
+
+        circle_marker_b1226f4501de2c8247d8916b77afb5f4.bindPopup(popup_9608e1112e3ef0c888ae536d35f8153a)
+        ;
+
+        
+    
+    
+            var circle_marker_eb3a3eb952134ce2fe17d36f4aab3ca7 = L.circleMarker(
+                [-12.285251, -41.9294776],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_6b6b2a1619599a2cd58bb254d8aaf746 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82162eaa4b8d2c27e4fd0543304c2f8a = $(`<div id="html_82162eaa4b8d2c27e4fd0543304c2f8a" style="width: 100.0%; height: 100.0%;"><b>Bahia</b><br>Casos COVID: 1530054<br>Temperatura: 28.62 °C<br>Umidade: 36%</div>`)[0];
+                popup_6b6b2a1619599a2cd58bb254d8aaf746.setContent(html_82162eaa4b8d2c27e4fd0543304c2f8a);
+            
+        
+
+        circle_marker_eb3a3eb952134ce2fe17d36f4aab3ca7.bindPopup(popup_6b6b2a1619599a2cd58bb254d8aaf746)
+        ;
+
+        
+    
+    
+            var circle_marker_b783ebac642a76dc8480ebc4ed8d8c0d = L.circleMarker(
+                [-5.3264703, -39.7156073],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_832322f05b34eb3114a858cafd5d730d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3c5b1dba63c0fd269f2c68ae781d4b1 = $(`<div id="html_c3c5b1dba63c0fd269f2c68ae781d4b1" style="width: 100.0%; height: 100.0%;"><b>Ceará</b><br>Casos COVID: 1239746<br>Temperatura: 32.99 °C<br>Umidade: 28%</div>`)[0];
+                popup_832322f05b34eb3114a858cafd5d730d.setContent(html_c3c5b1dba63c0fd269f2c68ae781d4b1);
+            
+        
+
+        circle_marker_b783ebac642a76dc8480ebc4ed8d8c0d.bindPopup(popup_832322f05b34eb3114a858cafd5d730d)
+        ;
+
+        
+    
+    
+            var circle_marker_a15986c1fe8fd566be015effa8fd8d94 = L.circleMarker(
+                [-15.7754462, -47.7970891],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_6a335a1966052eb255f8a067de657d57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93f646f47d49f7f468fc96899dd573a2 = $(`<div id="html_93f646f47d49f7f468fc96899dd573a2" style="width: 100.0%; height: 100.0%;"><b>Distrito Federal</b><br>Casos COVID: 691353<br>Temperatura: 29.01 °C<br>Umidade: 27%</div>`)[0];
+                popup_6a335a1966052eb255f8a067de657d57.setContent(html_93f646f47d49f7f468fc96899dd573a2);
+            
+        
+
+        circle_marker_a15986c1fe8fd566be015effa8fd8d94.bindPopup(popup_6a335a1966052eb255f8a067de657d57)
+        ;
+
+        
+    
+    
+            var circle_marker_3f9fe865ad0c913f0e6b00deda453bb6 = L.circleMarker(
+                [-19.5687682, -40.1721991],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_a9c2efa68a24521f132505f9fadcd712 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1c86f20d88a279e8a4e387fad4e1fc8 = $(`<div id="html_c1c86f20d88a279e8a4e387fad4e1fc8" style="width: 100.0%; height: 100.0%;"><b>Espírito Santo</b><br>Casos COVID: 1037188<br>Temperatura: 24.49 °C<br>Umidade: 39%</div>`)[0];
+                popup_a9c2efa68a24521f132505f9fadcd712.setContent(html_c1c86f20d88a279e8a4e387fad4e1fc8);
+            
+        
+
+        circle_marker_3f9fe865ad0c913f0e6b00deda453bb6.bindPopup(popup_a9c2efa68a24521f132505f9fadcd712)
+        ;
+
+        
+    
+    
+            var circle_marker_0d85dda0a0ee9145ca8e4860b544b647 = L.circleMarker(
+                [-15.9323662, -50.1392928],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_fed01bacfe1862cdc1a5df5dd982c66a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3a88c5248797d89facfef2f32b9f978 = $(`<div id="html_f3a88c5248797d89facfef2f32b9f978" style="width: 100.0%; height: 100.0%;"><b>Goiás</b><br>Casos COVID: 1269853<br>Temperatura: 33.97 °C<br>Umidade: 16%</div>`)[0];
+                popup_fed01bacfe1862cdc1a5df5dd982c66a.setContent(html_f3a88c5248797d89facfef2f32b9f978);
+            
+        
+
+        circle_marker_0d85dda0a0ee9145ca8e4860b544b647.bindPopup(popup_fed01bacfe1862cdc1a5df5dd982c66a)
+        ;
+
+        
+    
+    
+            var circle_marker_bac36d7a881f90e0077663e260d89c41 = L.circleMarker(
+                [-5.2085503, -45.3930262],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_3b4d1e0f47bf923d6cf65ba3ba9d035d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8afe1554b11c5cc4e6940f01e833bbeb = $(`<div id="html_8afe1554b11c5cc4e6940f01e833bbeb" style="width: 100.0%; height: 100.0%;"><b>Maranhão</b><br>Casos COVID: 424199<br>Temperatura: 37.38 °C<br>Umidade: 21%</div>`)[0];
+                popup_3b4d1e0f47bf923d6cf65ba3ba9d035d.setContent(html_8afe1554b11c5cc4e6940f01e833bbeb);
+            
+        
+
+        circle_marker_bac36d7a881f90e0077663e260d89c41.bindPopup(popup_3b4d1e0f47bf923d6cf65ba3ba9d035d)
+        ;
+
+        
+    
+    
+            var circle_marker_5c035de12e2a115aea0e6c1c9c581a76 = L.circleMarker(
+                [-10.6743911, -37.3773519],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_6c3bdd65c8719e27c6eb375e4ed01ec5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3627926912188bdb3f7111211d98f08c = $(`<div id="html_3627926912188bdb3f7111211d98f08c" style="width: 100.0%; height: 100.0%;"><b>Sergipe</b><br>Casos COVID: 325274<br>Temperatura: 28.82 °C<br>Umidade: 46%</div>`)[0];
+                popup_6c3bdd65c8719e27c6eb375e4ed01ec5.setContent(html_3627926912188bdb3f7111211d98f08c);
+            
+        
+
+        circle_marker_5c035de12e2a115aea0e6c1c9c581a76.bindPopup(popup_6c3bdd65c8719e27c6eb375e4ed01ec5)
+        ;
+
+        
+    
+    
+            var circle_marker_10dfcce6f60aab110b743c52f3b6145e = L.circleMarker(
+                [-10.8855129, -48.3716912],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_c27a4e0e03822ed0be1e48eb8b20cdde);
+        
+    
+        var popup_a43730419a1ec62b9038ff73092ceafc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1e9f7ead8703451c63f5079cd46636e = $(`<div id="html_d1e9f7ead8703451c63f5079cd46636e" style="width: 100.0%; height: 100.0%;"><b>Tocantins</b><br>Casos COVID: 302502<br>Temperatura: 34.7 °C<br>Umidade: 18%</div>`)[0];
+                popup_a43730419a1ec62b9038ff73092ceafc.setContent(html_d1e9f7ead8703451c63f5079cd46636e);
+            
+        
+
+        circle_marker_10dfcce6f60aab110b743c52f3b6145e.bindPopup(popup_a43730419a1ec62b9038ff73092ceafc)
+        ;
+
+        
+    
+</script>
+</html>
